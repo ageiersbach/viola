@@ -26,16 +26,13 @@ impl Instrument {
                     words.push(s.clone());
                     s.clear();
                 },
-                CharType::Punctuation(PunctuationType::Apostrophe) => {
-                    s.push(c);
-                },
-                CharType::Punctuation(PunctuationType::Symbol) => {
+                CharType::Alphanumeric |
+                CharType::Punctuation(PunctuationType::Apostrophe) |
+                CharType::Punctuation(PunctuationType::Symbol) |
+                CharType::Other => {
                     s.push(c);
                 }
                 CharType::Punctuation(_) => {},
-                CharType::Other | CharType::Alphanumeric => {
-                    s.push(c);
-                }
             }
         }
         words.push(s);
