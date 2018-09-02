@@ -1,6 +1,0 @@
-[package]
-name = "viola"
-version = "0.1.0"
-authors = ["Anne Geiersbach <annasazi@gmail.com>"]
-
-[dependencies]
