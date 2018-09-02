@@ -1,9 +1,7 @@
 # Viola
 
-A string instrument for rust.
+An application for saving notes.
 
 ---
 
 ## TODO
-
-- parse sentences in string
