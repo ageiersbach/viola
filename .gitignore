@@ -2,3 +2,10 @@ target/
 
 /target
 **/*.rs.bk
+
+/tmp
+dist/*
+node_modules/
+bower_components/
+
+electron-out/
