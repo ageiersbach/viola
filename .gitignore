@@ -3,6 +3,8 @@ target/
 /target
 **/*.rs.bk
 
+*.sqlite3
+
 /tmp
 dist/*
 node_modules/
